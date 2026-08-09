@@ -1,3 +1,5 @@
+export const dynamic = 'force-static';
+
 import { getAllPosts } from '@/lib/markdown';
 
 export default async function sitemap() {
