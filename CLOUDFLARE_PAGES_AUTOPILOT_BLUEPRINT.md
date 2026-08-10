@@ -95,7 +95,7 @@ jobs:
 
 ## 🔹 Stap 3: GitHub Repository Secrets Toevoegen
 
-In de GitHub Repository ➔ **Settings** ➔ **Secrets and variables** ➔ **Actions**:
+In de GitHub Repository (`https://github.com/BitbloXWebdesign/deautokampeerder`) ➔ **Settings** ➔ **Secrets and variables** ➔ **Actions**:
 - `DEEPSEEK_API_KEY`: API Key uit `.env.local`
 - `BOL_CLIENT_ID`: Client ID uit `.env.local`
 - `BOL_CLIENT_SECRET`: Client Secret uit `.env.local`
@@ -105,7 +105,7 @@ In de GitHub Repository ➔ **Settings** ➔ **Secrets and variables** ➔ **Act
 ## 🔹 Stap 4: Cloudflare Pages Koppelen (100% Gratis & Onbeperkt)
 
 1. Log in op [Cloudflare Dashboard](https://dash.cloudflare.com/) ➔ **Workers & Pages** ➔ **Create Application** ➔ **Pages** ➔ **Connect to Git**.
-2. Selecteer de GitHub repository.
+2. Selecteer de GitHub repository (`BitbloXWebdesign/deautokampeerder`).
 3. Instellingen:
    - **Framework preset:** `Next.js (Static HTML Export)`
    - **Build command:** `npx next build` *(of `npm run build`)*
