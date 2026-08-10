@@ -4,21 +4,28 @@ Dit document is de complete, herbruikbare handleiding voor het opzetten van nieu
 
 ---
 
-## 📋 Het 5-Stappen Masterplan voor Nieuwe Websites
+## 📋 Het Masterplan voor Nieuwe Websites
 
 ```mermaid
 graph TD
-    A[1. Next.js Codebase & Static Export] --> B[2. 24/7 GitHub Cloud Automation]
+    A[1. Next.js Codebase & .env.local] --> B[2. 24/7 GitHub Cloud Automation]
     B --> C[3. GitHub Repository Secrets]
     C --> D[4. Cloudflare Pages Deployment]
-    D --> E[5. Vimexx / DirectAdmin CNAME Koppeling]
+    D --> E[5. Vimexx / DirectAdmin CNAME & .htaccess 301 Redirect]
 ```
 
 ---
 
-## 🔹 Stap 1: Next.js Instellen voor Static Export
+## 🔹 Stap 1: Omgevingsvariabelen & Next.js Static Export
 
-### 1. `next.config.mjs`
+### 1. Lokaal `.env.local` bestand aanmaken in de hoofdmap
+```env
+DEEPSEEK_API_KEY=your_deepseek_api_key_here
+BOL_CLIENT_ID=your_bol_client_id_here
+BOL_CLIENT_SECRET=your_bol_client_secret_here
+```
+
+### 2. `next.config.mjs`
 ```javascript
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -31,7 +38,7 @@ const nextConfig = {
 export default nextConfig;
 ```
 
-### 2. `src/app/robots.js` & `src/app/sitemap.js`
+### 3. `src/app/robots.js` & `src/app/sitemap.js`
 Voeg bovenaan beide bestanden toe:
 ```javascript
 export const dynamic = 'force-static';
@@ -78,7 +85,7 @@ jobs:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
       - run: npm run build
       - run: |
-          git config --global user.name "DeAutokampeerder Bot"
+          git config --global user.name "Automated Publisher Bot"
           git config --global user.email "bot@deautokampeerder.nl"
           git add src/data/ src/content/kennisbank/
           git diff --quiet && git diff --staged --quiet || (git commit -m "feat(cron): sync live Bol prices, discover products & publish article" && git push)
@@ -89,9 +96,9 @@ jobs:
 ## 🔹 Stap 3: GitHub Repository Secrets Toevoegen
 
 In de GitHub Repository ➔ **Settings** ➔ **Secrets and variables** ➔ **Actions**:
-- `DEEPSEEK_API_KEY`: API sleutel van DeepSeek.
-- `BOL_CLIENT_ID`: Client ID van Bol.com Open API.
-- `BOL_CLIENT_SECRET`: Client Secret van Bol.com Open API.
+- `DEEPSEEK_API_KEY`: API Key uit `.env.local`
+- `BOL_CLIENT_ID`: Client ID uit `.env.local`
+- `BOL_CLIENT_SECRET`: Client Secret uit `.env.local`
 
 ---
 
@@ -104,25 +111,36 @@ In de GitHub Repository ➔ **Settings** ➔ **Secrets and variables** ➔ **Act
    - **Build command:** `npx next build` *(of `npm run build`)*
    - **Build output directory:** `out`
 4. Klik op **Save and Deploy**.
+5. Ga naar **Custom domains** ➔ Voeg `www.domeinnaam.nl` toe ➔ Kies **My DNS provider** ➔ **Begin CNAME setup**.
 
 ---
 
-## 🔹 Stap 5: Vimexx / DirectAdmin DNS Koppeling
+## 🔹 Stap 5: Vimexx / DirectAdmin DNS, SSL & 301 Redirect
 
-In het DirectAdmin DNS beheer van het domein bij Vimexx:
+In het DirectAdmin beheer van de provider (Vimexx):
 
-1. **Verwijder** oude A-records of Vercel A-records (`76.76.21.21`).
-2. **Voeg toe** bij CNAME:
-   - **Host / Naam:** `www`
-   - **Type:** `CNAME`
-   - **Waarde / Inhoud:** `<projectnaam>.pages.dev.` *(met de punt aan het einde!)*
-3. **Laat alle MX-, e-mail- en TXT-regels 100% ongewijzigd** zodat de e-mail bij Vimexx blijft werken.
-4. Ga in Cloudflare Pages naar **Custom domains** ➔ Voeg `www.domeinnaam.nl` toe ➔ Kies **My DNS provider** ➔ **Begin CNAME setup**.
+1. **DNS Management:**
+   - **`www` CNAME:** `<projectnaam>.pages.dev.` *(met de punt aan het einde!)*
+   - **Hoofddomein A-record:** `185.104.29.70` *(wijst naar Vimexx server)*
+   - **E-mail (MX, TXT, mail, smtp):** 100% ongewijzigd laten.
+
+2. **SSL Certificaat bij Vimexx (voorkomt Bitdefender SSL waarschuwing):**
+   - DirectAdmin ➔ **Advanced Features** ➔ **SSL Certificates**.
+   - Kies **Free & automatic certificate from Let's Encrypt**.
+   - Vink het domein aan en sla op.
+
+3. **.htaccess 301 Redirect (stuur non-www naar www):**
+   - DirectAdmin ➔ **File Manager** ➔ `domains/domeinnaam.nl/public_html/`.
+   - Bewerk of maak het bestand **`.htaccess`** en plaats deze regel:
+     ```apache
+     Redirect 301 / https://www.domeinnaam.nl/
+     ```
 
 ---
 
-### ✅ Resultaat voor elke nieuwe site:
+### ✅ Eindresultaat:
 - ⚡ 100% Gratis onbeperkte hosting & SSL via Cloudflare Pages.
 - 📧 100% E-mailbehoud bij Vimexx zonder storingen.
+- 🔒 100% Geldig groen SSL-slotje voor zowel met als zonder `www`.
 - 🤖 24/7 Autopilot: automatische artikelen, live prijzen en productuitbreiding.
-- 📱 Perfect responsive, magazine-layout en zoekmachine-geoptimaliseerd!
+- 📱 Perfect responsive magazine-layout en zoekmachine-geoptimaliseerd!
