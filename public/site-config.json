@@ -8,6 +8,6 @@
     "microsites": false,
     "reviews": false,
     "faq": true,
-    "form": true
+    "form": false
   }
 }
