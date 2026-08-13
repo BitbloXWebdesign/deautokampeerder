@@ -1,0 +1,13 @@
+{
+  "site": "De Autokampeerder",
+  "domain": "deautokampeerder.nl",
+  "modules": {
+    "blog": true,
+    "seo": true,
+    "geo": false,
+    "microsites": false,
+    "reviews": false,
+    "faq": true,
+    "form": true
+  }
+}
