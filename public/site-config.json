@@ -14,7 +14,7 @@
     "cookieBanner": true,
     "announcement": true,
     "announcementBar": true,
-    "socialProof": true,
+    "accessibility": true,
     "callback": false,
     "callBack": false
   }
