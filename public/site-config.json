@@ -5,9 +5,17 @@
     "blog": true,
     "seo": true,
     "geo": false,
+    "whatsapp": false,
     "microsites": false,
     "reviews": false,
     "faq": true,
-    "form": false
+    "form": false,
+    "cookies": true,
+    "cookieBanner": true,
+    "announcement": true,
+    "announcementBar": true,
+    "socialProof": true,
+    "callback": false,
+    "callBack": false
   }
 }
