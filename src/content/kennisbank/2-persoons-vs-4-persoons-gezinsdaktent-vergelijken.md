@@ -2,7 +2,7 @@
 title: "2-Persoons vs. 4-Persoons Gezinsdaktent: Gewicht, Binnenruimte & Comfort"
 date: "2026-08-16"
 category: "Koopgidsen"
-image: "/images/blue-car-roof-tent.png"
+image: "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=1200&q=80"
 excerpt: "Kies je een compacte 2-persoons hardshell of een ruime 4-persoons softshell voor de hele familie? Bekijk de verschillen in gewicht en leefruimte."
 ---
 

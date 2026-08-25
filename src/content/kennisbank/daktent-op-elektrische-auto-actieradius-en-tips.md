@@ -1,8 +1,8 @@
 ---
 title: "Daktent op een Elektrische Auto (EV / Tesla / ID.4): Actieradius & Montagetips"
-date: "2026-08-14"
-category: "Koopgidsen"
-image: "/images/daktent-opzetten.jpg"
+date: "2026-08-25"
+category: "Tips & Advies"
+image: "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=1200&q=80"
 excerpt: "Hoe beïnvloedt een daktent de actieradius van je elektrische auto? Bekijk de invloed op het verbruik, aerodynamica en geschikte dakdragers."
 ---
 

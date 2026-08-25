@@ -1,9 +1,9 @@
 ---
-title: "Daktent op een kleine auto: Kan dat op een Fiat 500, VW Polo of stadsauto?"
-date: "2026-08-07"
-category: "Installatie"
-image: "/images/dakdragers-auto.jpg"
-excerpt: "Denk je dat je een 4x4 nodig hebt voor een daktent? Ontdek hoe daktenten gemonteerd kunnen worden op compacte stadsauto’s mits je op de daklast let."
+title: "Daktent op een kleine auto mogelijk? (Fiat 500, Polo, Aygo)"
+date: "2026-08-18"
+category: "Koopgidsen"
+image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1200&q=80"
+excerpt: "Denk je dat je een 4x4 nodig hebt voor een daktent? Ontdek hoe daktenten gemonteerd kunnen worden op compacte stadsauto's en waar je op moet letten."
 ---
 
 Ja, een daktent kan op een kleine auto zoals een Fiat 500, VW Polo of andere stadsauto gemonteerd worden, maar alleen als je strikt rekening houdt met de dynamische daklast van jouw voertuig. De grootste uitdaging is niet de breedte of het formaat van de auto, maar het gewicht: compacte auto's hebben vaak een draagvermogen van slechts 50 tot 75 kilogram op het dak, terwijl een daktent met twee personen en matrassen al snel 50 kilogram weegt. In dit artikel leggen we uit waar je op moet letten, welke daktenttypes geschikt zijn voor kleine auto's en hoe je veilig op pad gaat.

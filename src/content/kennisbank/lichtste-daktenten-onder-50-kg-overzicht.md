@@ -1,9 +1,9 @@
 ---
-title: "De Lichtste Daktenten Onder 50 kg voor Auto’s met een Lage Daklast"
-date: "2026-08-19"
+title: "Lichtste Daktenten van 2026: Overzicht van Modellen onder 50 kg"
+date: "2026-08-15"
 category: "Koopgidsen"
-image: "/images/rooftop-cabin-smart-top-3.png"
-excerpt: "Heeft jouw auto een beperkte dynamische daklast van 50 kg? Bekijk de beste ultralichte daktenten die op vrijwel elke personenauto passen."
+image: "https://images.unsplash.com/photo-1517824806704-9040b037703b?auto=format&fit=crop&w=1200&q=80"
+excerpt: "Heb je een auto met beperkte daklast? Bekijk de lichtste daktenten onder 50 kg van Featherlite, Thule en Sheepie."
 ---
 
 Een daktent onder de 50 kg is een daktent die inclusief constructie en bevestigingsmateriaal minder weegt dan 50 kilogram, waardoor hij geschikt is voor voertuigen met een lage dynamische daklast, zoals kleinere SUV's, stationwagens en stadsauto's. Dit gewichtsbereik opent de wereld van slapen op het dak voor een veel bredere groep autokampeerders, maar het vereist wel dat je kritisch kijkt naar materiaal, opbouw en jouw specifieke auto.

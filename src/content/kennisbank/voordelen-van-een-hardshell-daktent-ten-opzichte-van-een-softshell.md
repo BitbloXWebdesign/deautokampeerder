@@ -1,9 +1,9 @@
 ---
-title: "Hardshell vs Softshell Daktent: 7 Overweldigende Voordelen voor de Avonturier"
-date: "2025-04-11"
+title: "Voordelen van een Hardshell Daktent ten opzichte van Softshell"
+date: "2026-08-13"
 category: "Koopgidsen"
-image: "https://images.unsplash.com/photo-1584126997295-f9327e5ee374?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
-excerpt: "Ontdek de belangrijkste verschillen tussen een hardshell en softshell daktent: van opbouwtijd tot leefruimte en brandstofverbruik."
+image: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1200&q=80"
+excerpt: "Waarom kiezen steeds meer kampeerders voor een hardshell daktent? Ontdek de voordelen van opzetsnelheid, windbestendigheid en aerodynamica."
 ---
 
 De keuze tussen een hardshell en softshell daktent is een van de belangrijkste beslissingen bij de aanschaf van een daktent. Op basis van technische fabrieksspecificaties, gewichtsklassen en ervaringen van kampeerders vergelijken we in dit artikel beide types op alle cruciale punten.

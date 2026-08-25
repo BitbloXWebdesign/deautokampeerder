@@ -1,3 +1,11 @@
+---
+title: "Hoeveel Wh Powerstation heb je nodig voor een 12V Koelbox?"
+date: "2026-08-17"
+category: "Koopgidsen"
+image: "https://images.unsplash.com/photo-1510312305653-8ed496efae75?auto=format&fit=crop&w=1200&q=80"
+excerpt: "Bereken exact hoeveel Wattuur (Wh) accu je nodig hebt voor 1 tot 3 dagen off-grid koelen zonder dat je auto-accu leegloopt."
+---
+
 # Hoeveel Wh Powerstation heb je Nodig voor een 12V Compressorkoelbox?
 
 Een 12V compressorkoelbox verbruikt gemiddeld tussen de 15 en 45 Wh per uur, afhankelijk van de buitentemperatuur, het ingestelde koelvermogen en hoe vaak de deur opengaat. Voor een weekend (48 uur) off-grid heb je daarom een powerstation nodig van minimaal **300 tot 500 Wh**, voor drie dagen (72 uur) is **500 tot 800 Wh** een realistisch uitgangspunt. De exacte berekening hangt af van het energieverbruik van jouw specifieke koelbox, de omgevingstemperatuur en je gebruikersgedrag.

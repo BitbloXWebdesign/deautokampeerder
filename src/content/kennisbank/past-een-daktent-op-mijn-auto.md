@@ -1,9 +1,9 @@
 ---
 title: "Past een daktent op mijn auto? Alles over daklast en dakdragers"
-date: "2026-08-05"
-category: "Installatie"
-image: "https://images.unsplash.com/photo-1645825436225-0b89a6b058b7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
-excerpt: "Een van de meest gestelde vragen: kan mijn auto wel een daktent dragen? Het antwoord is bij de meeste personenauto's ja, mits je de dynamische daklast controleert."
+date: "2026-08-14"
+category: "Koopgidsen"
+image: "https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?auto=format&fit=crop&w=1200&q=80"
+excerpt: "Bereken de dynamische en statische daklast van jouw auto om te controleren of er een daktent op gemonteerd kan worden."
 ---
 
 Een van de grootste misvattingen is dat je een grote 4x4 of terreinwagen nodig hebt voor een daktent. Zelfs op veel compacte personenauto's, zoals een Volkswagen Golf of Polo, kan bij de juiste voorwaarden een daktent gemonteerd worden. De doorslaggevende factor is de **dynamische daklast** van het voertuig.
