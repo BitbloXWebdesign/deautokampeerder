@@ -1,5 +1,6 @@
 import ProductCard from '../../components/ProductCard';
 import UspBar from '../../components/UspBar';
+import AuthorBox from '../../components/AuthorBox';
 import accessoiresData from '../../data/accessoires.json';
 import Link from 'next/link';
 import { Flame, TentTree, Snowflake, Compass } from 'lucide-react';
@@ -41,6 +42,7 @@ export default function AccessoiresPage() {
                 price={item.price}
                 image={item.image}
                 affiliateUrl={item.link}
+                rodenUrl={item.rodenUrl}
               />
             ))}
           </div>
@@ -99,6 +101,8 @@ export default function AccessoiresPage() {
             <p>
               Vergeet smeltende koelelementen. Een 12V compressorkoelbox (zoals de <strong>Dometic CFX3</strong>) koelt tot wel -22°C, ongeacht de buitentemperatuur op de camping. Perfect in combinatie met een draagbare powerstation en zonnepanelen.
             </p>
+
+            <AuthorBox />
           </div>
         </article>
       </div>
