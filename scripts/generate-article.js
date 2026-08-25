@@ -66,25 +66,25 @@ const topicQueue = [
     excerpt: 'Bereken eenvoudig hoeveel accucapaciteit (Wh) je nodig hebt om je 12V compressorkoelbox 1, 2 of 3 dagen off-grid koud te houden.'
   },
   {
-    slug: 'daktent-en-fietsendrager-combineren-op-een-auto',
-    title: 'Daktent + Fietsendrager Combineren op Één Auto: Kogeldruk & Indeling',
-    category: 'Installatie',
-    image: '/images/dakdragers-auto.jpg',
-    excerpt: 'Wil je op roadtrip met zowel een daktent op het dak als e-bikes op de trekhaak? Ontdek de tips voor gewichtsverdeling en kogeldruk.'
+    "slug": "daktent-en-fietsendrager-combineren-op-een-auto",
+    "title": "Daktent + Fietsendrager Combineren op Één Auto: Kogeldruk & Indeling",
+    "category": "Installatie",
+    "image": "https://images.pexels.com/photos/2422265/pexels-photo-2422265.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "excerpt": "Wil je op roadtrip met zowel een daktent op het dak als e-bikes op de trekhaak? Ontdek de tips voor gewichtsverdeling en kogeldruk."
   },
   {
-    slug: 'anti-condensmat-in-daktent-noodzakelijk-of-niet',
-    title: 'Anti-condensmat in de Daktent: Is het Echt Noodzakelijk?',
-    category: 'Onderhoud',
-    image: '/images/blue-car-roof-tent.png',
-    excerpt: 'Waarom ontstaat er vocht onder je daktentmatras en hoe voorkomt een anti-condens ondermat schimmel en koude slaapomstandigheden?'
+    "slug": "anti-condensmat-in-daktent-noodzakelijk-of-niet",
+    "title": "Anti-condensmat in de Daktent: Is het Echt Noodzakelijk?",
+    "category": "Onderhoud",
+    "image": "https://media.s-bol.com/Kp3zLoMm0Y4x/0VR5jmy/550x393.jpg",
+    "excerpt": "Waarom ontstaat er vocht onder je daktentmatras en hoe voorkomt een anti-condens ondermat schimmel en koude slaapomstandigheden?"
   },
   {
-    slug: 'kamperen-in-herfst-en-winter-met-een-daktent',
-    title: 'Kamperen in de Herfst en Winter met een Daktent: Isolatie & Verwarming',
-    category: 'Kampeertips',
-    image: '/images/daktent-opzetten.jpg',
-    excerpt: 'Kan je in de winter in een daktent slapen? Alles over binnententen, thermokleding, 12V warmtedekens en het voorkomen van bevriezing.'
+    "slug": "kamperen-in-herfst-en-winter-met-een-daktent",
+    "title": "Kamperen in de Herfst en Winter met een Daktent: Isolatie & Verwarming",
+    "category": "Kampeertips",
+    "image": "https://images.pexels.com/photos/1687845/pexels-photo-1687845.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "excerpt": "Kan je in de winter in een daktent slapen? Alles over binnententen, thermokleding, 12V warmtedekens en het voorkomen van bevriezing."
   }
 ];
 
