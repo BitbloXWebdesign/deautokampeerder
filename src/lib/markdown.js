@@ -13,7 +13,7 @@ export function getAllPosts() {
   const fileNames = fs.readdirSync(contentDirectory);
   
   const allPosts = fileNames
-    .filter(fileName => fileName.endsWith('.md') && !fileName.toLowerCase().startsWith('readme'))
+    .filter(fileName => fileName.endsWith('.md') && !fileName.toLowerCase().includes('readme'))
     .map(fileName => {
       const slug = fileName.replace(/\.md$/, '');
       const fullPath = path.join(contentDirectory, fileName);
@@ -25,7 +25,8 @@ export function getAllPosts() {
         slug,
         ...data,
       };
-    });
+    })
+    .filter(post => post.title && post.title.trim() !== '');
 
   // Sorteer op datum
   return allPosts.sort((a, b) => (a.date < b.date ? 1 : -1));

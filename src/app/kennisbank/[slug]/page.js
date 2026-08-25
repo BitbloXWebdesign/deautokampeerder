@@ -1,6 +1,7 @@
 import { getPostBySlug, getAllPosts } from '../../../lib/markdown';
 import ReactMarkdown from 'react-markdown';
 import Link from 'next/link';
+import AuthorBox from '../../../components/AuthorBox';
 import '../markdown.css';
 
 export async function generateStaticParams() {
@@ -79,6 +80,8 @@ export default async function ArticlePage({ params }) {
           {post.content}
         </ReactMarkdown>
       </div>
+
+      <AuthorBox />
 
       <div style={{ textAlign: 'center', paddingBottom: 'var(--spacing-xl)', marginTop: '3rem' }}>
         <Link href="/kennisbank" className="btn btn-outline">

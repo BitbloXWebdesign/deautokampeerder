@@ -1,5 +1,6 @@
 import ProductCard from '../../components/ProductCard';
 import UspBar from '../../components/UspBar';
+import AuthorBox from '../../components/AuthorBox';
 import daktentenData from '../../data/daktenten.json';
 import Link from 'next/link';
 import { Tent, Weight, Droplets, Clock } from 'lucide-react';
@@ -32,7 +33,7 @@ export default function DaktentenPage() {
           <div className="flex items-center justify-between" style={{marginBottom: 'var(--spacing-lg)'}}>
             <h2>Populairste Daktent Modellen</h2>
           </div>
-          <div className="grid grid-cols-4">
+          <div className="grid grid-cols-4" style={{ marginBottom: 'var(--spacing-xl)' }}>
             {daktentenData.map((tent) => (
               <ProductCard 
                 key={tent.id}
@@ -41,8 +42,55 @@ export default function DaktentenPage() {
                 price={tent.price}
                 image={tent.image}
                 affiliateUrl={tent.link}
+                rodenUrl={tent.rodenUrl}
               />
             ))}
+          </div>
+
+          {/* VERGELIJKINGSTABEL */}
+          <div style={{ background: 'var(--card-bg)', borderRadius: '16px', border: '1px solid var(--border-light)', padding: 'var(--spacing-lg)', boxShadow: '0 4px 20px rgba(0,0,0,0.03)' }}>
+            <h3 style={{ marginBottom: 'var(--spacing-md)' }}>📊 Daktenten Vergelijkingstabel (Specificaties & Daklast)</h3>
+            <div style={{ overflowX: 'auto' }}>
+              <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', fontSize: '0.95rem' }}>
+                <thead>
+                  <tr style={{ borderBottom: '2px solid var(--border-light)', background: 'var(--bg-light)' }}>
+                    <th style={{ padding: '12px' }}>Daktent Model</th>
+                    <th style={{ padding: '12px' }}>Type</th>
+                    <th style={{ padding: '12px' }}>Gewicht</th>
+                    <th style={{ padding: '12px' }}>Capaciteit</th>
+                    <th style={{ padding: '12px' }}>Opzettijd</th>
+                    <th style={{ padding: '12px' }}>Prijs</th>
+                    <th style={{ padding: '12px', textAlign: 'center' }}>Aanbieders</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {daktentenData.map((tent) => (
+                    <tr key={tent.id} style={{ borderBottom: '1px solid var(--border-light)' }}>
+                      <td style={{ padding: '12px', fontWeight: 600 }}>{tent.name}</td>
+                      <td style={{ padding: '12px' }}>{tent.type}</td>
+                      <td style={{ padding: '12px' }}>{tent.weightKg} kg</td>
+                      <td style={{ padding: '12px' }}>{tent.capacity}</td>
+                      <td style={{ padding: '12px' }}>{tent.setupTime}</td>
+                      <td style={{ padding: '12px', fontWeight: 'bold', color: 'var(--primary)' }}>€ {tent.price}</td>
+                      <td style={{ padding: '12px', textAlign: 'center' }}>
+                        <div style={{ display: 'flex', gap: '6px', justifyContent: 'center' }}>
+                          {tent.link && (
+                            <a href={tent.link} target="_blank" rel="noopener noreferrer" style={{ fontSize: '0.8rem', padding: '6px 10px', background: 'var(--primary)', color: '#fff', borderRadius: '6px', textDecoration: 'none' }}>
+                              Bol.com
+                            </a>
+                          )}
+                          {tent.rodenUrl && (
+                            <a href={tent.rodenUrl} target="_blank" rel="noopener noreferrer" style={{ fontSize: '0.8rem', padding: '6px 10px', background: '#1b4d3e', color: '#fff', borderRadius: '6px', textDecoration: 'none' }}>
+                              Roden
+                            </a>
+                          )}
+                        </div>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           </div>
         </section>
 
@@ -98,6 +146,8 @@ export default function DaktentenPage() {
               <li><strong>Dynamische daklast:</strong> Maximaal gewicht tijdens het rijden (vaak 50-75 kg). Tent + dragers mogen dit niet overschrijden.</li>
               <li><strong>Statische daklast:</strong> Gewicht tijdens stilstand (vaak 300+ kg). Twee volwassenen in de tent is voor het dak geen enkel probleem.</li>
             </ul>
+
+            <AuthorBox />
           </div>
         </article>
       </div>
