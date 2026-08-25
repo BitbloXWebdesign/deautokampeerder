@@ -13,17 +13,26 @@ export default function AuthorBox() {
       alignItems: 'center',
       boxShadow: '0 4px 15px rgba(0,0,0,0.03)'
     }}>
-      <img 
-        src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80" 
-        alt="Stefan - De Autokampeerder" 
-        style={{ width: '80px', height: '80px', borderRadius: '50%', objectFit: 'cover', flexShrink: 0, border: '3px solid var(--primary)' }}
-      />
+      <div style={{
+        width: '70px',
+        height: '70px',
+        borderRadius: '50%',
+        background: 'var(--bg-light)',
+        border: '2px solid var(--primary)',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        fontSize: '2rem',
+        flexShrink: 0
+      }}>
+        🏕️
+      </div>
       <div>
-        <h4 style={{ margin: 0, fontSize: '1.1rem', color: 'var(--primary)' }}>Geschreven door Stefan – Daktent Specialist</h4>
+        <h4 style={{ margin: 0, fontSize: '1.1rem', color: 'var(--primary)' }}>Redactie De Autokampeerder</h4>
         <p style={{ margin: '6px 0 10px 0', fontSize: '0.9rem', color: 'var(--text-muted)', lineHeight: '1.5' }}>
-          Autokampeerder in hart en nieren. Test en vergelijkt daktenten, dakdragers en 12V outdoor uitrusting op basis van technische specificaties, veiligheidskaders en praktijkervaring.
+          Onafhankelijk vergelijkingsplatform voor autokampeerders. Onze redactie analyseert daktenten, dakdragers en 12V outdoor gear op basis van fabrieksspecificaties, daklastnormen en onafhankelijke gebruikersbeoordelingen.
         </p>
-        <Link href="/over-ons" style={{ fontSize: '0.85rem', color: 'var(--secondary)', fontWeight: 600, textDecoration: 'underline' }}>
+        <Link href="/transparantie-en-methodiek" style={{ fontSize: '0.85rem', color: 'var(--secondary)', fontWeight: 600, textDecoration: 'underline' }}>
           Lees meer over onze redactie & testmethodiek &rarr;
         </Link>
       </div>
