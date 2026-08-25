@@ -2,7 +2,7 @@
 title: "Hoeveel Wh Powerstation heb je nodig voor een 12V Koelbox?"
 date: "2026-08-17"
 category: "Koopgidsen"
-image: "https://images.unsplash.com/photo-1510312305653-8ed496efae75?auto=format&fit=crop&w=1200&q=80"
+image: "https://media.s-bol.com/33kV99m03jxr/Ep70QY/550x368.jpg"
 excerpt: "Bereken exact hoeveel Wattuur (Wh) accu je nodig hebt voor 1 tot 3 dagen off-grid koelen zonder dat je auto-accu leegloopt."
 ---
 

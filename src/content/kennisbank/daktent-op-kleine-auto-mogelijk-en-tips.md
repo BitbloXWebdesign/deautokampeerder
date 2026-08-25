@@ -2,7 +2,7 @@
 title: "Daktent op een kleine auto mogelijk? (Fiat 500, Polo, Aygo)"
 date: "2026-08-18"
 category: "Koopgidsen"
-image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1200&q=80"
+image: "https://media.s-bol.com/mgM998m3mO3R/pOL31p/550x435.jpg"
 excerpt: "Denk je dat je een 4x4 nodig hebt voor een daktent? Ontdek hoe daktenten gemonteerd kunnen worden op compacte stadsauto's en waar je op moet letten."
 ---
 

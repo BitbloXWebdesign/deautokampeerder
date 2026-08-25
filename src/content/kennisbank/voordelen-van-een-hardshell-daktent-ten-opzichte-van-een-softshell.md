@@ -2,7 +2,7 @@
 title: "Voordelen van een Hardshell Daktent ten opzichte van Softshell"
 date: "2026-08-13"
 category: "Koopgidsen"
-image: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1200&q=80"
+image: "https://images.unsplash.com/photo-1584126997295-f9327e5ee374?auto=format&fit=crop&w=1200&q=80"
 excerpt: "Waarom kiezen steeds meer kampeerders voor een hardshell daktent? Ontdek de voordelen van opzetsnelheid, windbestendigheid en aerodynamica."
 ---
 

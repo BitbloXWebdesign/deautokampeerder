@@ -2,7 +2,7 @@
 title: "Wat is een Daktent? De Ultieme Gids voor Beginners"
 date: "2026-08-12"
 category: "Koopgidsen"
-image: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1200&q=80"
+image: "https://images.unsplash.com/photo-1625834509314-3b12c6153624?auto=format&fit=crop&w=1200&q=80"
 excerpt: "Alles wat je moet weten over daktenten: hoe het werkt, de voor- en nadelen en waarom autokamperen met een daktent zo populair is."
 ---
 

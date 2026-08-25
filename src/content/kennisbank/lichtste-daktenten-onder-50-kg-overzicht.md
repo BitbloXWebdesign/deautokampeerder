@@ -2,7 +2,7 @@
 title: "Lichtste Daktenten van 2026: Overzicht van Modellen onder 50 kg"
 date: "2026-08-15"
 category: "Koopgidsen"
-image: "https://images.unsplash.com/photo-1517824806704-9040b037703b?auto=format&fit=crop&w=1200&q=80"
+image: "https://media.s-bol.com/Ovox7z8OnOyY/gJGyxkr/550x323.jpg"
 excerpt: "Heb je een auto met beperkte daklast? Bekijk de lichtste daktenten onder 50 kg van Featherlite, Thule en Sheepie."
 ---
 

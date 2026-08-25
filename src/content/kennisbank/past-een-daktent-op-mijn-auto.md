@@ -2,7 +2,7 @@
 title: "Past een daktent op mijn auto? Alles over daklast en dakdragers"
 date: "2026-08-14"
 category: "Koopgidsen"
-image: "https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?auto=format&fit=crop&w=1200&q=80"
+image: "https://media.s-bol.com/rxmLLm11j7K2/L9O2EDD/550x412.jpg"
 excerpt: "Bereken de dynamische en statische daklast van jouw auto om te controleren of er een daktent op gemonteerd kan worden."
 ---
 
