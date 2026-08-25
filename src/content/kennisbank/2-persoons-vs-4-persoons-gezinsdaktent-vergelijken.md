@@ -2,7 +2,7 @@
 title: "2-Persoons vs. 4-Persoons Gezinsdaktent: Gewicht, Binnenruimte & Comfort"
 date: "2026-08-16"
 category: "Koopgidsen"
-image: "https://media.s-bol.com/Kp3zLoMm0Y4x/0VR5jmy/550x393.jpg"
+image: "https://images.pexels.com/photos/1687845/pexels-photo-1687845.jpeg?auto=compress&cs=tinysrgb&w=1200"
 excerpt: "Kies je een compacte 2-persoons hardshell of een ruime 4-persoons softshell voor de hele familie? Bekijk de verschillen in gewicht en leefruimte."
 ---
 
