@@ -1,5 +1,6 @@
 import ProductCard from '../../components/ProductCard';
 import UspBar from '../../components/UspBar';
+import AuthorBox from '../../components/AuthorBox';
 import powerData from '../../data/power.json';
 import Link from 'next/link';
 import { BatteryCharging, Sun, Zap, PlugZap } from 'lucide-react';
@@ -41,6 +42,7 @@ export default function PowerPage() {
                 price={item.price}
                 image={item.image}
                 affiliateUrl={item.link}
+                rodenUrl={item.rodenUrl}
               />
             ))}
           </div>
@@ -94,6 +96,8 @@ export default function PowerPage() {
             <p>
               Voor een compressor koelbox (verbruik ca. 1-2 Ah/uur) en het opladen van telefoons en een laptop, is een capaciteit rond de <strong>500Wh tot 700Wh</strong> perfect voor 2 dagen off-grid zonder bij te laden. Heb je ook zonnepanelen aangesloten, dan kun je eindeloos op één plek blijven staan.
             </p>
+
+            <AuthorBox />
           </div>
         </article>
       </div>

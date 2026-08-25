@@ -1,5 +1,6 @@
 import ProductCard from '../../components/ProductCard';
 import UspBar from '../../components/UspBar';
+import AuthorBox from '../../components/AuthorBox';
 import fietsendragersData from '../../data/fietsendragers.json';
 import Link from 'next/link';
 import { Bike, Unlink, ArrowDownToLine, Zap } from 'lucide-react';
@@ -41,6 +42,7 @@ export default function FietsendragersPage() {
                 price={drager.price}
                 image={drager.image}
                 affiliateUrl={drager.link}
+                rodenUrl={drager.rodenUrl}
               />
             ))}
           </div>
@@ -94,6 +96,8 @@ export default function FietsendragersPage() {
             <p>
               Tijdens het autokamperen moet je regelmatig bij je spullen in de kofferbak (zoals je koelbox of campingstoelen). Kies daarom altijd een drager met een voetpedaal-kantelmechanisme. Hiermee kantel je de hele drager inclusief fietsen schuin naar voren zonder ze te hoeven afladen.
             </p>
+
+            <AuthorBox />
           </div>
         </article>
       </div>
