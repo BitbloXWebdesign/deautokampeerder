@@ -5,7 +5,7 @@ export const metadata = {
   title: "Over Ons | DeAutokampeerder",
   description: "Het verhaal achter DeAutokampeerder: hét onafhankelijke informatieplatform voor daktenten, dakdragers, stroomvoorzieningen en autokampeer-gear.",
   alternates: {
-    canonical: "https://deautokampeerder.nl/over-ons",
+    canonical: "https://www.deautokampeerder.nl/over-ons",
   },
 };
 

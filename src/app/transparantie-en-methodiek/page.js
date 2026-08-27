@@ -4,7 +4,7 @@ export const metadata = {
   title: "Transparantie & Werkwijze | DeAutokampeerder",
   description: "Hoe DeAutokampeerder werkt, hoe we informatie verzamelen en hoe onze affiliate-links werken. 100% eerlijk en helder.",
   alternates: {
-    canonical: "https://deautokampeerder.nl/transparantie-en-methodiek",
+    canonical: "https://www.deautokampeerder.nl/transparantie-en-methodiek",
   },
 };
 

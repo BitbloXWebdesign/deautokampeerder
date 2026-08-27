@@ -1,6 +1,9 @@
 export const metadata = {
   title: 'Disclaimer | De Autokampeerder',
   description: 'Affiliate disclaimer en aansprakelijkheid.',
+  alternates: {
+    canonical: 'https://www.deautokampeerder.nl/disclaimer',
+  },
 };
 
 export default function Disclaimer() {

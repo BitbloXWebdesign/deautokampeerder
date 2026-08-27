@@ -7,6 +7,9 @@ import { ShieldCheck, Wind, Gauge, PenTool } from 'lucide-react';
 export const metadata = {
   title: 'Dakdragers voor Daktenten | Premium Draagsystemen',
   description: 'Vind de beste dakdragers voor jouw daktent. Gids over open vs gesloten railing, glad dak en Thule WingBar draagvermogen.',
+  alternates: {
+    canonical: 'https://www.deautokampeerder.nl/dakdragers',
+  },
 };
 
 export default function DakdragersPage() {

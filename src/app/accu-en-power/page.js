@@ -8,6 +8,9 @@ import { BatteryCharging, Sun, Zap, PlugZap } from 'lucide-react';
 export const metadata = {
   title: 'Powerstations & Accu\'s voor Kamperen | Bluetti, EcoFlow, Jackery',
   description: 'Blijf off-grid stroom houden tijdens je daktent trip. Vergelijk draagbare accu\'s en zonnepanelen van Bluetti, EcoFlow en Jackery.',
+  alternates: {
+    canonical: 'https://www.deautokampeerder.nl/accu-en-power',
+  },
 };
 
 export default function PowerPage() {

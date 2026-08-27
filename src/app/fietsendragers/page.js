@@ -8,6 +8,9 @@ import { Bike, Unlink, ArrowDownToLine, Zap } from 'lucide-react';
 export const metadata = {
   title: 'Beste Fietsendragers voor Daktent Trips | Trekhaak & E-Bike',
   description: 'Combineer je daktent met een stevige fietsendrager op de trekhaak. Bekijk de beste Thule, ProUser en Hapro modellen voor E-bikes.',
+  alternates: {
+    canonical: 'https://www.deautokampeerder.nl/fietsendragers',
+  },
 };
 
 export default function FietsendragersPage() {

@@ -4,6 +4,9 @@ import { getAllPosts } from '../../lib/markdown';
 export const metadata = {
   title: 'Kennisbank | Alles over daktenten en kamperen',
   description: 'Lees onze koopgidsen, installatietips en roadtrip inspiratie voor jouw volgende avontuur.',
+  alternates: {
+    canonical: 'https://www.deautokampeerder.nl/kennisbank',
+  },
 };
 
 export default function KennisbankIndex() {

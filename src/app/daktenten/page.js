@@ -8,6 +8,9 @@ import { Tent, Weight, Droplets, Clock } from 'lucide-react';
 export const metadata = {
   title: 'Beste Daktenten 2026 | Hardshell & Softshell Vergelijken',
   description: 'Vergelijk onafhankelijk de beste daktenten voor jouw auto. Uitgebreide gids over hardshell vs softshell, daklast berekenen en montage.',
+  alternates: {
+    canonical: 'https://www.deautokampeerder.nl/daktenten',
+  },
 };
 
 export default function DaktentenPage() {

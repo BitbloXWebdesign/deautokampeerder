@@ -8,6 +8,9 @@ import { Flame, TentTree, Snowflake, Compass } from 'lucide-react';
 export const metadata = {
   title: 'Outdoor Gear & Accessoires | Skottelbraai, Luifels & Koelboxen',
   description: 'Maak je daktent avontuur compleet met de beste outdoor spullen. Vergelijk Cadac Skottelbraais, 270 graden luifels, parasols en koelboxen.',
+  alternates: {
+    canonical: 'https://www.deautokampeerder.nl/accessoires',
+  },
 };
 
 export default function AccessoiresPage() {
