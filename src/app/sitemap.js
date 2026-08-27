@@ -3,7 +3,7 @@ export const dynamic = 'force-static';
 import { getAllPosts } from '@/lib/markdown';
 
 export default async function sitemap() {
-  const baseUrl = 'https://deautokampeerder.nl';
+  const baseUrl = 'https://www.deautokampeerder.nl';
 
   // Statische pagina's
   const staticRoutes = [

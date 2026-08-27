@@ -21,7 +21,7 @@ export async function generateMetadata({ params }) {
     title: `${post.frontmatter.title} | De Autokampeerder`,
     description: post.frontmatter.excerpt,
     alternates: {
-      canonical: `https://deautokampeerder.nl/kennisbank/${resolvedParams.slug}`,
+      canonical: `https://www.deautokampeerder.nl/kennisbank/${resolvedParams.slug}`,
     },
   };
 }

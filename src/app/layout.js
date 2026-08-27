@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 import CookieBanner from '../components/CookieBanner';
 
 export const metadata = {
-  metadataBase: new URL('https://deautokampeerder.nl'),
+  metadataBase: new URL('https://www.deautokampeerder.nl'),
   title: {
     default: 'De Autokampeerder | Onafhankelijke Gids & Vergelijker voor Daktenten',
     template: '%s | De Autokampeerder',
@@ -16,7 +16,7 @@ export const metadata = {
   openGraph: {
     title: 'De Autokampeerder | Onafhankelijke Gids voor Daktenten & Autokamperen',
     description: 'Vergelijk daktenten, bereken daklast en vind de beste autokampeer-uitrusting voor jouw roadtrip.',
-    url: 'https://deautokampeerder.nl',
+    url: 'https://www.deautokampeerder.nl',
     siteName: 'De Autokampeerder',
     locale: 'nl_NL',
     type: 'website',
@@ -35,19 +35,19 @@ const jsonLd = {
   '@graph': [
     {
       '@type': 'Organization',
-      '@id': 'https://deautokampeerder.nl/#organization',
+      '@id': 'https://www.deautokampeerder.nl/#organization',
       name: 'De Autokampeerder',
-      url: 'https://deautokampeerder.nl',
-      logo: 'https://deautokampeerder.nl/images/logo.png',
+      url: 'https://www.deautokampeerder.nl',
+      logo: 'https://www.deautokampeerder.nl/images/logo.png',
       description: 'Onafhankelijk informatieplatform en vergelijkingsgids voor daktenten, dakdragers en autokampeer-uitrusting.',
     },
     {
       '@type': 'WebSite',
-      '@id': 'https://deautokampeerder.nl/#website',
-      url: 'https://deautokampeerder.nl',
+      '@id': 'https://www.deautokampeerder.nl/#website',
+      url: 'https://www.deautokampeerder.nl',
       name: 'De Autokampeerder',
       publisher: {
-        '@id': 'https://deautokampeerder.nl/#organization',
+        '@id': 'https://www.deautokampeerder.nl/#organization',
       },
       inLanguage: 'nl-NL',
     },

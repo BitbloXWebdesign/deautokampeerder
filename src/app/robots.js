@@ -6,6 +6,6 @@ export default function robots() {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://deautokampeerder.nl/sitemap.xml',
+    sitemap: 'https://www.deautokampeerder.nl/sitemap.xml',
   };
 }
