@@ -18,7 +18,17 @@ export default function DaktentenPage() {
     <>
       {/* HERO SECTION */}
       <section className="hero-full" style={{ minHeight: '60vh' }}>
-        <div className="hero-bg-daktenten"></div>
+        <div className="hero-bg-wrapper">
+          <img 
+            src="https://images.unsplash.com/photo-1625834509314-3b12c6153624?auto=format&fit=crop&w=800&q=70&fm=webp" 
+            alt="Daktenten vergelijken" 
+            fetchPriority="high" 
+            decoding="async" 
+            className="hero-bg-img"
+            width="800"
+            height="400"
+          />
+        </div>
         <div className="container hero-content">
           <nav style={{ fontSize: '0.9rem', color: 'rgba(255,255,255,0.8)', marginBottom: 'var(--spacing-md)' }}>
             <Link href="/" style={{ textDecoration: 'underline' }}>Home</Link> &gt; <span>Daktenten</span>

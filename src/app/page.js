@@ -32,7 +32,17 @@ export default function Home() {
     <>
       {/* HERO SECTION */}
       <section className="hero-full">
-        <div className="hero-bg"></div>
+        <div className="hero-bg-wrapper">
+          <img 
+            src="https://images.unsplash.com/photo-1776725120960-32c1e0194cc7?auto=format&fit=crop&w=800&q=70&fm=webp" 
+            alt="Autokamperen met Daktent" 
+            fetchPriority="high" 
+            decoding="async" 
+            className="hero-bg-img"
+            width="800"
+            height="500"
+          />
+        </div>
         <div className="container hero-content">
           <span className="badge">🏕️ Jouw avontuur begint hier</span>
           <h1>Ontdek de Ultieme Vrijheid van Autokamperen</h1>
