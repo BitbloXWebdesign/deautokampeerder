@@ -2,13 +2,7 @@ import './globals.css';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import CookieBanner from '../components/CookieBanner';
-import { Inter } from 'next/font/google';
 
-const inter = Inter({
-  subsets: ['latin'],
-  weight: ['400', '600', '800'],
-  display: 'swap',
-});
 
 export const metadata = {
   metadataBase: new URL('https://www.deautokampeerder.nl'),
@@ -63,17 +57,15 @@ const jsonLd = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="nl" className={inter.className}>
+    <html lang="nl">
       <head>
-        <link rel="preconnect" href="https://media.s-bol.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://images.unsplash.com" crossOrigin="anonymous" />
-        <link rel="dns-prefetch" href="https://media.s-bol.com" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className={inter.className}>
+      <body>
         <Header />
         <main>{children}</main>
         <Footer />
