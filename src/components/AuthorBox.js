@@ -13,18 +13,21 @@ export default function AuthorBox() {
       alignItems: 'center',
       boxShadow: '0 4px 15px rgba(0,0,0,0.03)'
     }}>
-      <div style={{
-        width: '70px',
-        height: '70px',
-        borderRadius: '50%',
-        background: 'var(--bg-light)',
-        border: '2px solid var(--primary)',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        fontSize: '2rem',
-        flexShrink: 0
-      }}>
+      <div 
+        aria-hidden="true"
+        style={{
+          width: '70px',
+          height: '70px',
+          borderRadius: '50%',
+          background: 'var(--bg-light)',
+          border: '2px solid var(--primary)',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          fontSize: '2rem',
+          flexShrink: 0
+        }}
+      >
         🏕️
       </div>
       <div>

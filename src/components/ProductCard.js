@@ -7,7 +7,15 @@ export default function ProductCard({ title, brand, price, image, affiliateUrl, 
       style={{ display: 'flex', flexDirection: 'column' }}
     >
       <div className="card-img-wrapper">
-        <img src={image} alt={title} className="card-img" />
+        <img 
+          src={image} 
+          alt={title} 
+          className="card-img"
+          loading="lazy"
+          decoding="async"
+          width="300"
+          height="220"
+        />
       </div>
       <div className="card-content" style={{ display: 'flex', flexDirection: 'column', flexGrow: 1 }}>
         <span style={{ fontSize: '0.8rem', textTransform: 'uppercase', color: 'var(--text-muted)', fontWeight: 600, letterSpacing: '1px' }}>{brand}</span>

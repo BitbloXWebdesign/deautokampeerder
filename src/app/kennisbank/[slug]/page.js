@@ -51,7 +51,14 @@ export default async function ArticlePage({ params }) {
 
       {post.frontmatter.image && (
         <div className="article-hero">
-          <img src={post.frontmatter.image} alt={post.frontmatter.title} />
+          <img 
+            src={post.frontmatter.image} 
+            alt={post.frontmatter.title} 
+            fetchPriority="high"
+            decoding="async"
+            width="1200"
+            height="600"
+          />
         </div>
       )}
 

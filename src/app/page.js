@@ -131,7 +131,14 @@ export default function Home() {
         <div className="container">
           <div className="feature-block">
             <div className="feature-image">
-              <img src="/images/rooftop-cabin-smart-top-3.png" alt="Land Cruiser met Daktent" />
+              <img 
+                src="/images/rooftop-cabin-smart-top-3.png" 
+                alt="Land Cruiser met Daktent" 
+                loading="lazy"
+                decoding="async"
+                width="600"
+                height="400"
+              />
             </div>
             <div className="feature-text">
               <h2>Selectie op Kwaliteit & Specificaties</h2>
@@ -173,7 +180,17 @@ export default function Home() {
             {latestPosts.map((post) => (
               <Link href={`/kennisbank/${post.slug}`} key={post.slug} className="card" style={{ textDecoration: 'none' }}>
                 <div className="card-img-wrapper">
-                  {post.image && <img src={post.image} alt={post.title} className="card-img" />}
+                  {post.image && (
+                    <img 
+                      src={post.image} 
+                      alt={post.title} 
+                      className="card-img" 
+                      loading="lazy"
+                      decoding="async"
+                      width="400"
+                      height="260"
+                    />
+                  )}
                 </div>
                 <div className="card-content">
                   <span style={{ fontSize: '0.8rem', color: 'var(--secondary)', fontWeight: 600, textTransform: 'uppercase' }}>{post.category || 'Koopgids'}</span>
