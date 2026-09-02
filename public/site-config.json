@@ -17,5 +17,6 @@
     "accessibility": true,
     "callback": false,
     "callBack": false
-  }
+  },
+  "portalSlug": "mijn-dak"
 }
